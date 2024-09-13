@@ -3,16 +3,14 @@ export interface ButtonProps
   children: React.ReactNode
 }
 
-export function Button({ children, ...other }: ButtonProps): JSX.Element {
-  const a = 11
-
+export function Button({ children, ...rest }: ButtonProps): JSX.Element {
   return (
     <button
       type='button'
-      {...other}
+      {...rest}
       style={{
         outline: 'none',
-        backgroundColor: '#ffeeee',
+        backgroundColor: '#28dd89',
         border: '1px sold #444444',
         borderRadius: '4px',
         padding: '4px 8px',

@@ -1,7 +1,9 @@
 {
   "name": "@42arch/eslint-config",
   "version": "0.0.0",
-  "private": true,
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "next.js",
     "react.js",
