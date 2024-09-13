@@ -1,9 +1,11 @@
 {
   "name": "@42arch/ui",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "sideEffects": false,
   "license": "MIT",
-  "private": true,
+  "publishConfig": {
+    "access": "public"
+  },
   "exports": {
     "./button": "./src/button.tsx"
   },
